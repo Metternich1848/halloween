@@ -2,11 +2,18 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>MyPhotos</title>
-    <link rel="stylesheet" type="text/css" href="myphotos.css">
-    
+    <title>Halloween</title>
+    <link rel="stylesheet" type="text/css" href="halloween.css">
+   
+    <style>
+    /*Photo Corner*/
+    .corner {
+  border-radius: 20px 20px;
+}
+</style>
+
   </head>
   <body>
     <!-- 頁首 -->
@@ -46,8 +53,25 @@
 
     <!-- 主要內容 -->
     <main>
-      <h2 id="title2">年度相片精選</h2>
-	  <div class="gridcontainer">
+      <h2 id="title2">Halloween 2024</h2>
+        <div class="gridcontainer" style="max-width:2000px;margin-top:46px">
+        <!-- 第0張相片 -->
+        <div class="griditem">        
+          <img src="H06.png" class="img-photo" width="800" height="800">        
+          <!--<h3>攝影師：Nubia Navarro</h3>
+          <p><a class="a-detail" href="photo1.html">詳細資料&raquo;</a></p>-->
+        </div>	  
+      <!-- 第二張相片 -->
+        <div class="griditem">
+          <!--<img src="photo2.jpg" class="img-photo">-->
+          <p>Halloween is a holiday celebrated each year on October 31, and Halloween 2024 will occur on Thursday, October 31. 
+            The tradition originated with the ancient Celtic festival of Samhain, 
+            when people would light bonfires and wear costumes to ward off ghosts. 
+            In the eighth century, Pope Gregory III designated November 1 as a time to honor all saints.</p>
+          <h3>攝影師：Og Mpango</h3>
+          <p><a class="a-detail" href="photo2.html">詳細資料&raquo;</a></p>
+        </div>
+
         <!-- 第一張相片 -->
 		<div class="griditem">        
           <img src="11.png" class="img-photo" width="300" height="300">        
@@ -116,10 +140,12 @@
 
     <div id="lowerpage" class="big-bg">
       <div class="menu-content wrapper">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/_-4So1pcoTU?si=X2q8mbHAPC5dypPj" 
+        <iframe width="430" height="242" class="corner" src="https://www.youtube.com/embed/haEwIl9QJmI?si=K6P5iqFExQ9ba0WN" title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/_-4So1pcoTU?si=X2q8mbHAPC5dypPj" 
         title="YouTube video player" frameborder="0" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>-->
       </div>
     </div>
 
